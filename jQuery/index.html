@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Aprendiendo jQuery</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+        crossorigin="anonymous">
+        </script>
+        <script src="js/Selectores.js"></script>
+        <style>
+            .margen-superior{
+                margin-top: 45px;
+                display: block;
+            }
+            .resaltado{
+                border-bottom: 2px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Aprendiendo jQuery Udemy</h1>
+        <ul>
+            <li>
+                <a href="http://www.google.com" title="google" target="_blank" rel="noopener noreferrer">
+                    Ir a google</li>
+                </a>
+            <li>
+                <a href="http://www.facebook.com" title="facebook" target="_blank" rel="noopener noreferrer">
+                Ir a facebook
+                </a>
+            </li>
+        </ul>
+
+        <p id="rojo" class="zebra">Ejercicios de jQuery</p>
+        <p id="amarillo" class='sin_borde'>Practicando con selectores</p>
+        <p id="verde" class="zebra">Quiero ser un parrafo verde</p>
+        <p class='sin_borde'>Soy un parrafo en blanco</p>
+
+        <div id='caja'>
+            <p>Hola, soy una caja</p>
+            <ul>
+                <li id="elemento1">Elemento1</li>
+                <li class="resaltado">Elemento2</li>
+            </ul>
+            <span class="resaltado"> Soy un span</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JS en UDEMy</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link id = 'theme' rel="stylesheet" href='css/green.css'>
+    <!--Slider JQuery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
+    <!--mis script-->
+    <script src='js/prueba.js'></script>
+</head>
+<body>
+    
+    <div id='selector-theme'>
+        <div id='to-green'></div>
+        <div id='to-blue'></div>
+        <div id='to-red'></div>
+    </div>
+    <section id='global'>
+        <!--cabecera-->
+        <header>
+            <div id='logo'>
+                <h1>PROYECTO JS</h1> 
+            </div>
+
+            <div class='clearfix'>
+
+            </div>
+
+            <nav id='menu'>
+                <ul >
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="reloj.html">RELOJ</a>
+                    </li>
+                    <li>
+                        <a href="aboutMe.html">SOBRE MI</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--SLIDER-->
+        <div id="slider">
+            <div class="galeria">
+                <div><img src="img/hojas.jpg" title="Funky roots"></div>
+                <div><img src="img/cielo.jpg" title="The long and winding road"></div>
+                <div><img src="img/rojo.jpg" title="Happy trees"></div>
+            </div>
+        </div>
+
+        <!--Contenido-->
+        <section id="content">
+            <div id="posts">
+                
+            </div>
+            <aside id="asidebar">
+                <div id="about">
+                    <h4>Quien soy?</h4>
+                    <img src="img/caracol.jpg" alt="caracol">
+                    <p>
+                        Nam arcu odio, euismod a urna scelerisque, pretium posuere ante. Praesent elit lorem, luctus non luctus quis, vestibulum non lorem. Aliquam id libero quis risus tincidunt tempor nec id velit. Vestibulum vel vestibulum lacus, et fermentum leo. Fusce et erat scelerisque, pellentesque est eu, mollis dui. Sed luctus maximus eros vel pellentesque. Donec et libero dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc imperdiet fringilla arcu sit amet finibus. Etiam interdum aliquet nunc non auctor. Ut id nulla arcu.
+                    </p>
+                </div>
+
+                <div id="login">
+                    <h4>Identificate</h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" >
+                        
+                        <label for="password">Password</label>
+                        <input type="password" name="password" >
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+            </aside>
+            <div class='clearfix'></div>
+        </section>
+    </section>
+
+    <footer>
+        Curso de Udemy master en Web
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+</html>
